@@ -1,1 +1,18 @@
 
+This GPIO drivers was buil according to Texas Instrument file strucure.
+
+It contains multiple layers as follows :
+
+1- RAL : Register Abstraction Layer -> this layer includes the physical micro controllers addresses.
+2- HAL : Hardware Absraction layer  -> this layer includes the atomoic functions related to the GPIO module.
+3- ECU : Elecronic Components Unit  -> this layer includes the electronic componenets inerface functions.
+4- SL  : Service Layer
+5- APP : Appliction Layer           -> this layer manages the interaction between more than one MCU module.
+
+=====================================================================
+
+Main Rules :
+
+1- There is no interaction between two modules in the same layer.
+2- The lower layers can not ineract with higher layers except for call back functions.
+3- The higher layer can interact with lower layers.
