@@ -1,0 +1,580 @@
+Archive member included because of file (symbol)
+
+c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-exit.o)
+                              c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o (exit)
+c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-impure.o)
+                              c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-exit.o) (_global_impure_ptr)
+c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-init.o)
+                              c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o (__libc_init_array)
+c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-memset.o)
+                              c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o (memset)
+c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-__call_atexit.o)
+                              c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-exit.o) (__call_exitprocs)
+c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-atexit.o)
+                              c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-__call_atexit.o) (atexit)
+c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-fini.o)
+                              c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-__call_atexit.o) (__libc_fini_array)
+c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-__atexit.o)
+                              c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-atexit.o) (__register_exitproc)
+c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys.a(_exit.o)
+                              c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+port                0x14              ./drivers/Examples/gpio_app_test.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x00000000         0x00040000         xr
+SRAM             0x20000000         0x00008000         xw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crti.o
+LOAD c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
+LOAD c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+LOAD ./tm4c123gh6pm_startup_ccs_gcc.o
+LOAD ./drivers/APP/app_gpio.o
+LOAD ./drivers/Examples/gpio_app_test.o
+LOAD ./drivers/HAL/gpio.o
+LOAD ./drivers/HAL/sysctrl.o
+LOAD ./drivers/SL/NVICInterruptHandler.o
+                0x00000000                PROVIDE (_intvecs_base_address, 0x0)
+
+.intvecs        0x00000000      0x26c
+ *(.intvecs)
+ .intvecs       0x00000000      0x26c ./tm4c123gh6pm_startup_ccs_gcc.o
+                0x00000000                g_pfnVectors
+                0x20000000                PROVIDE (_vtable_base_address, 0x20000000)
+
+.vtable
+ *(.vtable)
+
+.text           0x0000026c     0x21f8
+ CREATE_OBJECT_SYMBOLS
+ *(.text)
+ .text          0x0000026c        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crti.o
+ .text          0x0000026c       0x5c c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
+ .text          0x000002c8       0x74 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+                0x000002c8                _start
+                0x000002c8                _mainCRTStartup
+ .text          0x0000033c        0x0 ./tm4c123gh6pm_startup_ccs_gcc.o
+ .text          0x0000033c        0x0 ./drivers/APP/app_gpio.o
+ .text          0x0000033c        0x0 ./drivers/Examples/gpio_app_test.o
+ .text          0x0000033c        0x0 ./drivers/HAL/gpio.o
+ .text          0x0000033c        0x0 ./drivers/HAL/sysctrl.o
+ .text          0x0000033c        0x0 ./drivers/SL/NVICInterruptHandler.o
+ .text          0x0000033c        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-exit.o)
+ .text          0x0000033c        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-impure.o)
+ .text          0x0000033c        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-init.o)
+ .text          0x0000033c        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-memset.o)
+ .text          0x0000033c        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-__call_atexit.o)
+ .text          0x0000033c        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-atexit.o)
+ .text          0x0000033c        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-fini.o)
+ .text          0x0000033c        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-__atexit.o)
+ .text          0x0000033c        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys.a(_exit.o)
+ .text          0x0000033c        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtend.o
+ .text          0x0000033c        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtn.o
+ *(.text.*)
+ .text.ResetISR
+                0x0000033c       0x68 ./tm4c123gh6pm_startup_ccs_gcc.o
+                0x0000033c                ResetISR
+ .text.NmiSR    0x000003a4        0x8 ./tm4c123gh6pm_startup_ccs_gcc.o
+ .text.FaultISR
+                0x000003ac        0x8 ./tm4c123gh6pm_startup_ccs_gcc.o
+ .text.IntDefaultHandler
+                0x000003b4        0x8 ./tm4c123gh6pm_startup_ccs_gcc.o
+ .text.initPin  0x000003bc      0x184 ./drivers/APP/app_gpio.o
+                0x000003bc                initPin
+ .text.initPort
+                0x00000540      0x158 ./drivers/APP/app_gpio.o
+                0x00000540                initPort
+ .text.digitalPinWrite
+                0x00000698       0x34 ./drivers/APP/app_gpio.o
+                0x00000698                digitalPinWrite
+ .text.digitalPortWrite
+                0x000006cc       0x2c ./drivers/APP/app_gpio.o
+                0x000006cc                digitalPortWrite
+ .text.digitalPinRead
+                0x000006f8       0x30 ./drivers/APP/app_gpio.o
+                0x000006f8                digitalPinRead
+ .text.digitalPortRead
+                0x00000728       0x28 ./drivers/APP/app_gpio.o
+                0x00000728                digitalPortRead
+ .text.digitalReadHWMaskedPins
+                0x00000750       0x34 ./drivers/APP/app_gpio.o
+                0x00000750                digitalReadHWMaskedPins
+ .text.digitalWriteHWMaskedPins
+                0x00000784       0x34 ./drivers/APP/app_gpio.o
+                0x00000784                digitalWriteHWMaskedPins
+ .text.interr   0x000007b8       0x14 ./drivers/Examples/gpio_app_test.o
+                0x000007b8                interr
+ .text.main     0x000007cc       0x7c ./drivers/Examples/gpio_app_test.o
+                0x000007cc                main
+ .text.HW_WRITE_BIT
+                0x00000848       0x50 ./drivers/HAL/gpio.o
+ .text.HW_READ_BIT
+                0x00000898       0x30 ./drivers/HAL/gpio.o
+ .text.setPinDir
+                0x000008c8       0xb8 ./drivers/HAL/gpio.o
+                0x000008c8                setPinDir
+ .text.writePin
+                0x00000980       0xb8 ./drivers/HAL/gpio.o
+                0x00000980                writePin
+ .text.readPin  0x00000a38       0x90 ./drivers/HAL/gpio.o
+                0x00000a38                readPin
+ .text.setPortDir
+                0x00000ac8       0x78 ./drivers/HAL/gpio.o
+                0x00000ac8                setPortDir
+ .text.writePort
+                0x00000b40       0x78 ./drivers/HAL/gpio.o
+                0x00000b40                writePort
+ .text.readPort
+                0x00000bb8       0x78 ./drivers/HAL/gpio.o
+                0x00000bb8                readPort
+ .text.writeHWMaskedPins
+                0x00000c30       0x84 ./drivers/HAL/gpio.o
+                0x00000c30                writeHWMaskedPins
+ .text.readHWMaskedPins
+                0x00000cb4       0x90 ./drivers/HAL/gpio.o
+                0x00000cb4                readHWMaskedPins
+ .text.pinAlternateFunctionSel
+                0x00000d44       0xa0 ./drivers/HAL/gpio.o
+                0x00000d44                pinAlternateFunctionSel
+ .text.portAlternateFunctionSel
+                0x00000de4       0x78 ./drivers/HAL/gpio.o
+                0x00000de4                portAlternateFunctionSel
+ .text.pinSetPadConfig
+                0x00000e5c      0x130 ./drivers/HAL/gpio.o
+                0x00000e5c                pinSetPadConfig
+ .text.portSetPadConfig
+                0x00000f8c      0x148 ./drivers/HAL/gpio.o
+                0x00000f8c                portSetPadConfig
+ .text.portUnLock
+                0x000010d4       0xa0 ./drivers/HAL/gpio.o
+                0x000010d4                portUnLock
+ .text.portCommit
+                0x00001174       0x78 ./drivers/HAL/gpio.o
+                0x00001174                portCommit
+ .text.pinCommit
+                0x000011ec       0xa0 ./drivers/HAL/gpio.o
+                0x000011ec                pinCommit
+ .text.portDigitalEnable
+                0x0000128c       0x78 ./drivers/HAL/gpio.o
+                0x0000128c                portDigitalEnable
+ .text.pinDigitalEnable
+                0x00001304       0xa0 ./drivers/HAL/gpio.o
+                0x00001304                pinDigitalEnable
+ .text.pinAnalogModeSelect
+                0x000013a4       0xa0 ./drivers/HAL/gpio.o
+                0x000013a4                pinAnalogModeSelect
+ .text.portAnalogModeSelect
+                0x00001444       0x84 ./drivers/HAL/gpio.o
+                0x00001444                portAnalogModeSelect
+ .text.portAdcTrigger
+                0x000014c8       0x78 ./drivers/HAL/gpio.o
+                0x000014c8                portAdcTrigger
+ .text.pinAdcTrigger
+                0x00001540       0xa0 ./drivers/HAL/gpio.o
+                0x00001540                pinAdcTrigger
+ .text.GPIOPortDMATrigger
+                0x000015e0       0x78 ./drivers/HAL/gpio.o
+                0x000015e0                GPIOPortDMATrigger
+ .text.GPIOPinDMATrigger
+                0x00001658       0xa0 ./drivers/HAL/gpio.o
+                0x00001658                GPIOPinDMATrigger
+ .text.GPIOPinControl
+                0x000016f8       0xb4 ./drivers/HAL/gpio.o
+                0x000016f8                GPIOPinControl
+ .text.GPIOPortControlClear
+                0x000017ac       0x74 ./drivers/HAL/gpio.o
+                0x000017ac                GPIOPortControlClear
+ .text.pinSlewRateControl
+                0x00001820       0xa0 ./drivers/HAL/gpio.o
+                0x00001820                pinSlewRateControl
+ .text.portSlewRateControl
+                0x000018c0       0x78 ./drivers/HAL/gpio.o
+                0x000018c0                portSlewRateControl
+ .text.gpioPinInterruptConfig
+                0x00001938      0x160 ./drivers/HAL/gpio.o
+                0x00001938                gpioPinInterruptConfig
+ .text.gpioPinInterruptUnMask
+                0x00001a98       0xa0 ./drivers/HAL/gpio.o
+                0x00001a98                gpioPinInterruptUnMask
+ .text.gpioPinInterruptClear
+                0x00001b38       0x88 ./drivers/HAL/gpio.o
+                0x00001b38                gpioPinInterruptClear
+ .text.gpioGetRawInterruptStatus
+                0x00001bc0       0x78 ./drivers/HAL/gpio.o
+                0x00001bc0                gpioGetRawInterruptStatus
+ .text.gpioGetMaskedInterruptStatus
+                0x00001c38       0x78 ./drivers/HAL/gpio.o
+                0x00001c38                gpioGetMaskedInterruptStatus
+ .text.HW_WRITE_BIT
+                0x00001cb0       0x50 ./drivers/HAL/sysctrl.o
+ .text.HW_READ_BIT
+                0x00001d00       0x30 ./drivers/HAL/sysctrl.o
+ .text.clockGating
+                0x00001d30       0xcc ./drivers/HAL/sysctrl.o
+                0x00001d30                clockGating
+ .text.NVICInterruptEnable
+                0x00001dfc      0x170 ./drivers/HAL/sysctrl.o
+                0x00001dfc                NVICInterruptEnable
+ .text.NVICInterruptDisable
+                0x00001f6c       0x54 ./drivers/HAL/sysctrl.o
+                0x00001f6c                NVICInterruptDisable
+ .text.NVICInterruptClearPending
+                0x00001fc0       0x54 ./drivers/HAL/sysctrl.o
+                0x00001fc0                NVICInterruptClearPending
+ .text.NVICInterruptActive
+                0x00002014       0xa4 ./drivers/HAL/sysctrl.o
+                0x00002014                NVICInterruptActive
+ .text.installNIVCISRFunction
+                0x000020b8       0x24 ./drivers/SL/NVICInterruptHandler.o
+                0x000020b8                installNIVCISRFunction
+ .text.deInstallNIVCISRFunction
+                0x000020dc       0x24 ./drivers/SL/NVICInterruptHandler.o
+                0x000020dc                deInstallNIVCISRFunction
+ .text.IntVirDefaultFun
+                0x00002100        0xc ./drivers/SL/NVICInterruptHandler.o
+                0x00002100                IntVirDefaultFun
+ .text.PortAISRHandler
+                0x0000210c       0x10 ./drivers/SL/NVICInterruptHandler.o
+                0x0000210c                PortAISRHandler
+ .text.PortBISRHandler
+                0x0000211c       0x10 ./drivers/SL/NVICInterruptHandler.o
+                0x0000211c                PortBISRHandler
+ .text.PortCISRHandler
+                0x0000212c       0x10 ./drivers/SL/NVICInterruptHandler.o
+                0x0000212c                PortCISRHandler
+ .text.PortDISRHandler
+                0x0000213c       0x10 ./drivers/SL/NVICInterruptHandler.o
+                0x0000213c                PortDISRHandler
+ .text.PortEISRHandler
+                0x0000214c       0x10 ./drivers/SL/NVICInterruptHandler.o
+                0x0000214c                PortEISRHandler
+ .text.PortFISRHandler
+                0x0000215c       0x10 ./drivers/SL/NVICInterruptHandler.o
+                0x0000215c                PortFISRHandler
+ .text.exit     0x0000216c       0x20 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-exit.o)
+                0x0000216c                exit
+ .text.__libc_init_array
+                0x0000218c       0x50 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-init.o)
+                0x0000218c                __libc_init_array
+ .text.memset   0x000021dc       0x9c c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-memset.o)
+                0x000021dc                memset
+ .text.startup.register_fini
+                0x00002278       0x14 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x0000228c       0xd4 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-__call_atexit.o)
+                0x0000228c                __call_exitprocs
+ .text.atexit   0x00002360        0xc c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-atexit.o)
+                0x00002360                atexit
+ .text.__libc_fini_array
+                0x0000236c       0x2c c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-fini.o)
+                0x0000236c                __libc_fini_array
+ .text.__register_exitproc
+                0x00002398       0xa4 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-__atexit.o)
+                0x00002398                __register_exitproc
+ .text._exit    0x0000243c        0x4 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys.a(_exit.o)
+                0x0000243c                _exit
+                0x00002440                . = ALIGN (0x4)
+ *(.ctors)
+                0x00002440                . = ALIGN (0x4)
+ *(.dtors)
+                0x00002440                . = ALIGN (0x4)
+                0x00002440                __init_array_start = .
+ *(.init_array*)
+ .init_array    0x00002440        0x4 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
+ .init_array.00000
+                0x00002444        0x4 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-__call_atexit.o)
+                0x00002448                __init_array_end = .
+ *(.init)
+ .init          0x00002448        0x4 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crti.o
+                0x00002448                _init
+ .init          0x0000244c        0x8 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtn.o
+ *(.fini*)
+ .fini          0x00002454        0x4 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crti.o
+                0x00002454                _fini
+ .fini_array    0x00002458        0x4 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
+ .fini          0x0000245c        0x8 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtn.o
+                0x00002464                PROVIDE (__etext, .)
+                0x00002464                PROVIDE (_etext, .)
+                0x00002464                PROVIDE (etext, .)
+
+.glue_7         0x00002464        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x00002464        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x00002464        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00002464        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x00002464        0x0
+ .iplt          0x00000000        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
+
+.rodata         0x00002464        0x8
+ *(.rodata)
+ *(.rodata*)
+ .rodata.str1.4
+                0x00002464        0x4 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-impure.o)
+                                  0x2 (size before relaxing)
+ .rodata._global_impure_ptr
+                0x00002468        0x4 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-impure.o)
+                0x00002468                _global_impure_ptr
+
+.eh_frame       0x0000246c        0x4
+ .eh_frame      0x0000246c        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
+ .eh_frame      0x0000246c        0x4 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtend.o
+
+.data           0x20000000      0x5dc load address 0x00002470
+                0x00002470                __data_load__ = LOADADDR (.data)
+                0x20000000                __data_start__ = .
+ *(.data)
+ .data          0x20000000        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crti.o
+ .data          0x20000000        0x4 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
+                0x20000000                __dso_handle
+ .data          0x20000004        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+ .data          0x20000004        0x0 ./tm4c123gh6pm_startup_ccs_gcc.o
+ .data          0x20000004        0x0 ./drivers/APP/app_gpio.o
+ .data          0x20000004        0x0 ./drivers/Examples/gpio_app_test.o
+ .data          0x20000004        0x0 ./drivers/HAL/gpio.o
+ .data          0x20000004        0x0 ./drivers/HAL/sysctrl.o
+ .data          0x20000004        0x0 ./drivers/SL/NVICInterruptHandler.o
+ .data          0x20000004        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-exit.o)
+ .data          0x20000004        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-impure.o)
+ .data          0x20000004        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-init.o)
+ .data          0x20000004        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-memset.o)
+ .data          0x20000004        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-__call_atexit.o)
+ .data          0x20000004        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-atexit.o)
+ .data          0x20000004        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-fini.o)
+ .data          0x20000004        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-__atexit.o)
+ .data          0x20000004        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys.a(_exit.o)
+ .data          0x20000004        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtend.o
+ .data          0x20000004        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtn.o
+ *(.data*)
+ .data.g_pfnVirualVectors
+                0x20000004      0x1ac ./drivers/SL/NVICInterruptHandler.o
+                0x20000004                g_pfnVirualVectors
+ .data.impure_data
+                0x200001b0      0x428 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x200005d8        0x4 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-impure.o)
+                0x200005d8                _impure_ptr
+                0x200005dc                . = ALIGN (0x4)
+                0x200005dc                __data_end__ = .
+
+.jcr            0x200005dc        0x4 load address 0x00002a4c
+ .jcr           0x200005dc        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
+ .jcr           0x200005dc        0x4 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtend.o
+
+.igot.plt       0x200005e0        0x0 load address 0x00002a50
+ .igot.plt      0x00000000        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
+
+.ARM.exidx      0x00002a50        0x8
+                0x00002a50                __exidx_start = .
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x00002a50        0x8 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+                0x00002a58                __exidx_end = .
+
+.ARM.extab      0x00002a58        0x0
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ .ARM.extab     0x00002a58        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+
+.rel.dyn        0x00002a58        0x0
+ .rel.iplt      0x00000000        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
+
+.bss            0x200005e0      0x230
+                0x200005e0                __bss_start__ = .
+ *(.shbss)
+ *(.bss)
+ .bss           0x200005e0        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crti.o
+ .bss           0x200005e0       0x1c c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
+ .bss           0x200005fc        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+ .bss           0x200005fc        0x0 ./tm4c123gh6pm_startup_ccs_gcc.o
+ .bss           0x200005fc        0x0 ./drivers/APP/app_gpio.o
+ .bss           0x200005fc        0x0 ./drivers/Examples/gpio_app_test.o
+ .bss           0x200005fc        0x0 ./drivers/HAL/gpio.o
+ .bss           0x200005fc        0x0 ./drivers/HAL/sysctrl.o
+ .bss           0x200005fc        0x0 ./drivers/SL/NVICInterruptHandler.o
+ .bss           0x200005fc        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-exit.o)
+ .bss           0x200005fc        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-impure.o)
+ .bss           0x200005fc        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-init.o)
+ .bss           0x200005fc        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-memset.o)
+ .bss           0x200005fc        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-__call_atexit.o)
+ .bss           0x200005fc        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-atexit.o)
+ .bss           0x200005fc        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-fini.o)
+ .bss           0x200005fc        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-__atexit.o)
+ .bss           0x200005fc        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys.a(_exit.o)
+ .bss           0x200005fc        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtend.o
+ .bss           0x200005fc        0x0 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtn.o
+ *(.bss.*)
+ .bss.pui32Stack
+                0x200005fc      0x200 ./tm4c123gh6pm_startup_ccs_gcc.o
+ *(COMMON)
+ COMMON         0x200007fc       0x14 ./drivers/Examples/gpio_app_test.o
+                0x200007fc                port
+                0x20000810                . = ALIGN (0x4)
+                0x20000810                __bss_end__ = .
+
+.heap           0x20000810        0x0
+                0x20000810                __heap_start__ = .
+                0x20000810                end = __heap_start__
+                0x20000810                _end = end
+                0x20000810                __end = end
+ *(.heap)
+                0x20000810                __heap_end__ = .
+                0x20000810                __HeapLimit = __heap_end__
+
+.stack          0x20000810        0x0
+                0x20000810                _stack = .
+                0x20000810                __stack = .
+ *(.stack)
+START GROUP
+LOAD c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu\libgcc.a
+LOAD c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a
+LOAD c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a
+END GROUP
+START GROUP
+LOAD c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu\libgcc.a
+LOAD c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a
+LOAD c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys.a
+END GROUP
+LOAD c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtend.o
+LOAD c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtn.o
+OUTPUT(Tiva C drivers.out elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x30
+ .ARM.attributes
+                0x00000000       0x22 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crti.o
+ .ARM.attributes
+                0x00000022       0x34 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
+ .ARM.attributes
+                0x00000056       0x20 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+ .ARM.attributes
+                0x00000076       0x39 ./tm4c123gh6pm_startup_ccs_gcc.o
+ .ARM.attributes
+                0x000000af       0x39 ./drivers/APP/app_gpio.o
+ .ARM.attributes
+                0x000000e8       0x39 ./drivers/Examples/gpio_app_test.o
+ .ARM.attributes
+                0x00000121       0x39 ./drivers/HAL/gpio.o
+ .ARM.attributes
+                0x0000015a       0x39 ./drivers/HAL/sysctrl.o
+ .ARM.attributes
+                0x00000193       0x39 ./drivers/SL/NVICInterruptHandler.o
+ .ARM.attributes
+                0x000001cc       0x34 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000200       0x34 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000234       0x34 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-init.o)
+ .ARM.attributes
+                0x00000268       0x34 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000029c       0x34 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-__call_atexit.o)
+ .ARM.attributes
+                0x000002d0       0x34 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-atexit.o)
+ .ARM.attributes
+                0x00000304       0x34 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-fini.o)
+ .ARM.attributes
+                0x00000338       0x34 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x0000036c       0x34 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys.a(_exit.o)
+ .ARM.attributes
+                0x000003a0       0x34 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtend.o
+ .ARM.attributes
+                0x000003d4       0x22 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtn.o
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 ./tm4c123gh6pm_startup_ccs_gcc.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ./drivers/APP/app_gpio.o
+ .comment       0x00000000       0x71 ./drivers/Examples/gpio_app_test.o
+ .comment       0x00000000       0x71 ./drivers/HAL/gpio.o
+ .comment       0x00000000       0x71 ./drivers/HAL/sysctrl.o
+ .comment       0x00000000       0x71 ./drivers/SL/NVICInterruptHandler.o
+
+.debug_info     0x00000000     0x2282
+ .debug_info    0x00000000      0x176 ./tm4c123gh6pm_startup_ccs_gcc.o
+ .debug_info    0x00000176      0x729 ./drivers/APP/app_gpio.o
+ .debug_info    0x0000089f      0x4ce ./drivers/Examples/gpio_app_test.o
+ .debug_info    0x00000d6d      0xbcd ./drivers/HAL/gpio.o
+ .debug_info    0x0000193a      0x52a ./drivers/HAL/sysctrl.o
+ .debug_info    0x00001e64      0x41e ./drivers/SL/NVICInterruptHandler.o
+
+.debug_abbrev   0x00000000      0x55f
+ .debug_abbrev  0x00000000       0xca ./tm4c123gh6pm_startup_ccs_gcc.o
+ .debug_abbrev  0x000000ca       0xed ./drivers/APP/app_gpio.o
+ .debug_abbrev  0x000001b7       0xe0 ./drivers/Examples/gpio_app_test.o
+ .debug_abbrev  0x00000297      0x138 ./drivers/HAL/gpio.o
+ .debug_abbrev  0x000003cf       0xd5 ./drivers/HAL/sysctrl.o
+ .debug_abbrev  0x000004a4       0xbb ./drivers/SL/NVICInterruptHandler.o
+
+.debug_aranges  0x00000000      0x290
+ .debug_aranges
+                0x00000000       0x38 ./tm4c123gh6pm_startup_ccs_gcc.o
+ .debug_aranges
+                0x00000038       0x58 ./drivers/APP/app_gpio.o
+ .debug_aranges
+                0x00000090       0x28 ./drivers/Examples/gpio_app_test.o
+ .debug_aranges
+                0x000000b8      0x128 ./drivers/HAL/gpio.o
+ .debug_aranges
+                0x000001e0       0x50 ./drivers/HAL/sysctrl.o
+ .debug_aranges
+                0x00000230       0x60 ./drivers/SL/NVICInterruptHandler.o
+
+.debug_ranges   0x00000000      0x230
+ .debug_ranges  0x00000000       0x28 ./tm4c123gh6pm_startup_ccs_gcc.o
+ .debug_ranges  0x00000028       0x48 ./drivers/APP/app_gpio.o
+ .debug_ranges  0x00000070       0x18 ./drivers/Examples/gpio_app_test.o
+ .debug_ranges  0x00000088      0x118 ./drivers/HAL/gpio.o
+ .debug_ranges  0x000001a0       0x40 ./drivers/HAL/sysctrl.o
+ .debug_ranges  0x000001e0       0x50 ./drivers/SL/NVICInterruptHandler.o
+
+.debug_line     0x00000000      0xbe5
+ .debug_line    0x00000000      0x158 ./tm4c123gh6pm_startup_ccs_gcc.o
+ .debug_line    0x00000158      0x18f ./drivers/APP/app_gpio.o
+ .debug_line    0x000002e7      0x108 ./drivers/Examples/gpio_app_test.o
+ .debug_line    0x000003ef      0x599 ./drivers/HAL/gpio.o
+ .debug_line    0x00000988      0x155 ./drivers/HAL/sysctrl.o
+ .debug_line    0x00000add      0x108 ./drivers/SL/NVICInterruptHandler.o
+
+.debug_str      0x00000000      0xdbd
+ .debug_str     0x00000000      0x23d ./tm4c123gh6pm_startup_ccs_gcc.o
+                                0x27a (size before relaxing)
+ .debug_str     0x0000023d      0x72d ./drivers/APP/app_gpio.o
+                                0x96b (size before relaxing)
+ .debug_str     0x0000096a       0x35 ./drivers/Examples/gpio_app_test.o
+                                0x859 (size before relaxing)
+ .debug_str     0x0000099f      0x266 ./drivers/HAL/gpio.o
+                                0x54d (size before relaxing)
+ .debug_str     0x00000c05       0xdf ./drivers/HAL/sysctrl.o
+                                0x7d8 (size before relaxing)
+ .debug_str     0x00000ce4       0xd9 ./drivers/SL/NVICInterruptHandler.o
+                                0x782 (size before relaxing)
+
+.debug_frame    0x00000000      0xadc
+ .debug_frame   0x00000000       0x7c ./tm4c123gh6pm_startup_ccs_gcc.o
+ .debug_frame   0x0000007c      0x130 ./drivers/APP/app_gpio.o
+ .debug_frame   0x000001ac       0x4c ./drivers/Examples/gpio_app_test.o
+ .debug_frame   0x000001f8      0x528 ./drivers/HAL/gpio.o
+ .debug_frame   0x00000720      0x114 ./drivers/HAL/sysctrl.o
+ .debug_frame   0x00000834      0x128 ./drivers/SL/NVICInterruptHandler.o
+ .debug_frame   0x0000095c       0x28 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-exit.o)
+ .debug_frame   0x00000984       0x2c c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-init.o)
+ .debug_frame   0x000009b0       0x34 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-memset.o)
+ .debug_frame   0x000009e4       0x50 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00000a34       0x20 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-atexit.o)
+ .debug_frame   0x00000a54       0x34 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-fini.o)
+ .debug_frame   0x00000a88       0x34 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-__atexit.o)
+ .debug_frame   0x00000abc       0x20 c:/ti/ccsv6/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys.a(_exit.o)
